@@ -55,6 +55,17 @@ img, svg {
 /* .shadow{
     background-Color : #2596be !important;
 } */
+.vertical_line {
+	background: #2a2826;
+	height: 224%;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2px;
+	z-index: 10;
+}
 #showcase2divText {
 	background-color: #2596be;
 	padding: 102px 50px 75px 50px;
@@ -143,6 +154,21 @@ img, svg {
     }
 }
 @media (max-width: 575px) {
+    .vertical_line {
+        background: #2a282600;
+        height: 224%;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 2px;
+        z-index: 10;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,.55);
+        font-size: 20px;
+    }
     #showcase2div {
         margin-left: 0vw !important;
         margin-right: 0vw !important;
